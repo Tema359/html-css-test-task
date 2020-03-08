@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+main {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: #e9e343 url("..//img/main.png");
+}
+
+.logo img {
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    right: 30px;
+} 
+
+h1 {
+    padding: 50px 0 0 28px;
+    font: bold 36px/1 Arial;
+    left: 28px;
+    top: 30px;
+}
+
+p {
+    padding: 20px 0 0 28px;
+    max-width: 288px;
+    font: 24px/1.4 Arial;
+}
+
+.mailing {
+    max-width: 255px;
+    font: 18px/1.4 Arial;
+    text-transform: uppercase;
+}
+
+.icon-info img {
+    display:inline-block;
+    margin: 0 0 -5px 12px;
+}
+
+.send {
+    display: block;
+    width: 190px;
+    height: 43px;
+    margin: 20px 0 0px 28px;
+    background-color: #64a6a7;
+    box-shadow: 0px 1px 5px 0px #64a6a7;
+    font: 600 18px Muli;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+
+.laptop-podium {
+    width: 225px;
+    height: 220px;
+    background-image: url("..//img/laptopodium.png");
+    margin: -126px 0 0px 328px;
+}
+
+.circle-down {
+    background:#64a6a7 url("..//img/gradient-circle-down.png");
+    width: 91px;
+    height: 91px;
+    margin: -153px 0px 0px 288px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 5px 0px #64a6a7;
+}
+
+.circle-up {
+    background: #64a6a7 url("..//img/gradient-circle-up.png");
+    width: 91px;
+    height: 91px;
+    margin:-205px 0px 0 469px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 5px 0px #64a6a7;
+}
+
+
+.left-circle {
+    display: block;
+    max-width: 75px;
+    padding: 15px 0 0 15px;
+    font: 600 14px Muli;
+    color: #ffffff;
+    text-align: center;
+}
+
+.right-circle {
+    display: block;
+    padding: 10px 0 0 0px;
+    font: 10px Muli;
+    color: #ffffff;
+    text-align: center;
+}
+
+.right-circle::after {
+content: url("..//img/laptopmini.png");
+display: block;
+padding: 10px 0 0 0;
+
+}
+
+
+footer {
+    position: absolute;
+    background-color: #e5e5e5;
+    box-shadow: 0 -5px 10px -5px #afadad;
+    top: 352px;
+    width: 600px;
+    height: 48px;
+}
+
+footer ul {
+    display: flex;
+    list-style:none;
+    justify-content: space-around;
+}
+
+
+footer a {
+    display: block;
+    font: 600 12px Muli;
+    padding: 10px 20px 0px 0;
+    text-decoration: none;
+    color: #000000;
+}
+
+a.www::before {
+    content: url("..//img/icon-www.png");
+}
+
+a.mail::before {
+    content: url("..//img/icon-mail.png");
+}
+
+a.tel::before {
+    content: url("..//img/icon-phone.png");
+}
+
+a::before {
+    display: block;
+    margin: 5px 0px -20px -40px;
+}
+
